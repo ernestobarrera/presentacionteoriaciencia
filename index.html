@@ -7,11 +7,11 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>reveal.js</title>
+    <title>presentación</title>
 
     <link rel="stylesheet" href="reveal.js/dist/reset.css" />
     <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-    <link rel="stylesheet" href="reveal.js/dist/theme/serif.css" id="theme" />
+    <link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme" />
 
     <!-- Theme used for syntax highlighted code -->
     <link
@@ -19,61 +19,33 @@
       href="reveal.js/plugin/highlight/monokai.css"
       id="highlight-theme"
     />
+     <!-- Custom Styles For Our Presentation -->
+  <style>
+
+    .left {
+      text-align: left;
+      
+    }
+    .pie {
+      position:absolute;
+      bottom:5;
+    .size1 {
+      font-size: 13px;
+    }
+    .size2 {
+      font-size: 12px;
+    }
+    
+  </style>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section
-          data-markdown
-          data-separator="-----"
-          data-separator-vertical="---"
-        >
-          <textarea data-template>
-            # Title Page
-
-            ### Date
-
-            -----
-            
-            Vertical slides are separated by `- - -`
-            
-            ---
-            
-            Vertical slides are separated by `- - -` .
-            
-            ---
-            
-            Vertical slides are separated by `- - -` ..
-     
-            -----
-            
-            # title
-            ## skills
-            * one
-            * two
-            * three
-            
-            ## heading
-            8. three
-            1. one
-            1. two
-         
-            
-            -----
-            
-
-            # Questions
-
-            -----
-
-            ## made with
-
-            #### [reveal.js](https://github.com/hakimel/reveal.js)
-
-            #### [excalidraw](https://github.com/excalidraw/excalidraw)
-
-          </textarea>
+        <section data-background-image="/img/1.jpg">
+       <h2 class="pie"> Realizamos un experimento y nos proporciona pruebas</h2>
         </section>
+          
+        
       </div>
     </div>
 
@@ -82,15 +54,25 @@
     <script src="reveal.js/plugin/markdown/markdown.js"></script>
     <script src="reveal.js/plugin/highlight/highlight.js"></script>
     <script src="reveal.js/plugin/zoom/zoom.js"></script>
+    <script src="reveal.js/plugin/search/search.js"></script>
+    <script src="reveal.js/js/reveal.js"></script>
     <script>
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
       // - https://revealjs.com/config/
       Reveal.initialize({
+        width: "99%",
+        height: "99%",
+      
+        backgroundTransition: 'zoom',
+        // Transition style for full page slide backgrounds: none/fade/slide/convex/concave/zoom
         hash: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealSearch],
+        slideNumber: true
+        
+	   
       });
     </script>
   </body>
