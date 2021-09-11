@@ -1,24 +1,20 @@
-# create-new-revealjs-template
-Reveal.js template presentation as a GitHub repo Template
-* Includes Reveal.js as a Git submodule so that its commit history is not confused with this presentation's history
-* Makes future updating of Reveal.js version very easy
-* Reduces the size of the presentation repositories significantly
+# Presentaciones
+Repositorio personal con presentaciones publicadas en páginas web de GitHub
 
-## Usage
-1. Click 'Use This Template'
-1. Name your presentation and it will be created in your own GitHub account/org
-1. Customise as necessary
-1. Push completed slides back to GitHub
-1. Configure your GitHub pages settings to serve the slides from _youraccount_.github.io (or custom domain even)
-1. **Amaze your friends** by being able to share the URL of your live, interactive slides with your audience immediately. No more emailing PowerPoint attachments for YOU!
+## Descripción
+* Presentaciones creadas con Reveal.js. Escritas en html y ![markdown](https://www.markdownguide.org/favicon.ico)
+* Incluye Reveal.js como submódulo Git, separando sus repositorios y commits de los de estas presentaciones
+* Se actualiza desde el repo de GitHub reveal.js periodicamente con `git submodule update --rebase --remote` (descrito [aquí](https://github.com/pacharanero/create-new-revealjs-template#updating-revealjs)). 
+* Reduce el tamaño de los repositorios de la presentación significativamente
 
-## Credits
-* [Hakim El-Hattab](https://twitter.com/hakimel) for the simple awesome [Reveal.js](https://github.com/hakimel/reveal.js)
-* [Martino Mensio](https://twitter.com/MartinoMensio) for his guide on how to use Reveal.js as a Git submodule in [this](https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d) blog post (and in doing so I learned how to use and not fear the Submodule!)
-* [Excalidraw](https://excalidraw.com/) which is a separate project, mentioned in my presentation template, but I love it so much I wanted to plug it here too.
+## Creditos
+* [Hakim El-Hattab](https://twitter.com/hakimel) es el creador de [Reveal.js](https://github.com/hakimel/reveal.js)
+* [Martino Mensio](https://twitter.com/MartinoMensio) describió la forma para utilizar Reveal.js como submódulo Git. Lo describe [aquí](https://martinomensio.medium.com/how-to-host-reveal-js-slides-on-github-pages-and-have-a-tidy-repository-1a363944c38d) 
+* [Marcus Baw](https://github.com/pacharanero/create-new-revealjs-template) es el autor de la plantilla con el submódulo de Reveal usada en este repositorio.
+* [Excalidraw](https://excalidraw.com/) que es un proyecto separado, mencionado en la plantilla de presentación de Marcus Baw, util para crear fondos o imágenes con una pizarra virtual
 
-## License
-* MIT Licensed as per Reveal.js itself
+## Licencia
+* Licencia MIT según la misma de Reveal.js
 
-## Contributing
-* Feel free to make suggestions and PRs to the template repo
+## Autor
+* [Ernesto Barrera](https://twitter.com/ernestob)
