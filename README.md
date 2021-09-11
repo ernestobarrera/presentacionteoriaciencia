@@ -2,10 +2,13 @@
 Repositorio personal con presentaciones publicadas en páginas web de GitHub
 
 ## Descripción
-* Presentaciones creadas con Reveal.js. Escritas en html y ![markdown](https://www.markdownguide.org/favicon.ico)
+* Presentaciones creadas con Reveal.js. Escritas en html y [![markdown](https://www.markdownguide.org/favicon.ico)](https://www.markdownguide.org)
 * Incluye Reveal.js como submódulo Git, separando sus repositorios y commits de los de estas presentaciones
 * Se actualiza desde el repo de GitHub reveal.js periodicamente con `git submodule update --rebase --remote` (descrito [aquí](https://github.com/pacharanero/create-new-revealjs-template#updating-revealjs)). 
 * Reduce el tamaño de los repositorios de la presentación significativamente
+* Permite usar Plugins:
+    * [Wiki de Reveal.js](https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware)
+    * [Martino Magnifico](https://martinomagnifico.github.io/)
 
 ## Creditos
 * [Hakim El-Hattab](https://twitter.com/hakimel) es el creador de [Reveal.js](https://github.com/hakimel/reveal.js)
